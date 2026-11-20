@@ -68,7 +68,7 @@ page = crawler.fetch("https://example.com/about")
 
 | Option | Default | Meaning |
 |---|---:|---|
-| `user_agent` | `SteadyCrawl/0.1 ([https://github.com/sheikhsab21r/steadycrawl2q])` | Identify your crawler. Replace with a real project URL/contact before public release. |
+| `user_agent` | `SteadyCrawl/0.1 (+[https://github.com/sheikhsab21r/steadycrawl2q]` | Identify your crawler. Replace with a real project URL/contact before public release. |
 | `request_timeout` | `12.0` | Timeout in seconds. |
 | `max_pages` | `25` | Maximum pages returned by `crawl`. |
 | `max_retries` | `2` | Retries after the first attempt. |
